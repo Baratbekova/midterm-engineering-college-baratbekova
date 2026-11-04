@@ -45,5 +45,5 @@ Shared assets: `css/style.css` (design tokens, components) and `js/main.js` (all
 ## Live site
 
 - Repository: `https://github.com/<your-username>/midterm-engineering-college-<yourID>`
-- Live URL: `https://<your-username>.github.io/midterm-engineering-college-<yourID>/`
+- Live URL: `https://baratbekova.github.io/midterm-engineering-college-baratbekova/`
 - Use the top navigation bar to move between pages; start at **Home**.
