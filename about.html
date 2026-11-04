@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About &amp; Programs | Engineering College</title>
+  <meta name="description" content="Learn about Engineering College and browse our six undergraduate engineering programs.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brand fixed-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-gear-wide-connected me-2" aria-hidden="true"></i>Engineering College</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About &amp; Programs</a></li>
+            <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+            <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="registration.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero">
+      <div class="container">
+        <h1>About &amp; Programs</h1>
+        <p>Practical, project-based engineering education since 1998.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <h2 id="about-title">Who we are</h2>
+            <p>Engineering College is a teaching-focused institution dedicated to preparing graduates who can design, build and maintain the systems society depends on. Our small classes, close faculty mentoring and strong industry ties make theory immediately useful.</p>
+            <p>Every student completes team design projects each year, culminating in a sponsored capstone and a professional internship before graduation.</p>
+          </div>
+          <div class="col-lg-5">
+            <div class="card"><div class="card-body p-4">
+              <h3 class="h5">Our values</h3>
+              <ul class="mb-0 ps-3">
+                <li>Curiosity and rigor in every lab</li>
+                <li>Responsible, sustainable design</li>
+                <li>Collaboration across disciplines</li>
+                <li>Inclusive learning for every student</li>
+              </ul>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" aria-labelledby="programs-title">
+      <div class="container">
+        <p class="eyebrow">Academic programs</p>
+        <h2 id="programs-title" class="mb-3">Choose your discipline</h2>
+        <div class="js-only flex-wrap gap-2 mb-2" role="group" aria-label="Filter programs by area" data-filter-group=".program" data-filter-status="programStatus">
+          <button type="button" class="btn btn-outline-brand active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="btn btn-outline-brand" data-filter="computing" aria-pressed="false">Computing</button>
+          <button type="button" class="btn btn-outline-brand" data-filter="electrical" aria-pressed="false">Electrical</button>
+          <button type="button" class="btn btn-outline-brand" data-filter="mechanical" aria-pressed="false">Mechanical &amp; Civil</button>
+        </div>
+        <p id="programStatus" class="visually-hidden" role="status" aria-live="polite"></p>
+
+        <div class="row g-4 mt-1">
+          <div class="col-md-6 col-lg-4 program" data-category="computing"><article class="card h-100"><div class="card-body p-4">
+            <span class="icon-badge" aria-hidden="true"><i class="bi bi-code-slash"></i></span>
+            <h3>BEng Software Engineering</h3>
+            <p>Design, test and deploy reliable software systems, from web platforms to embedded applications.</p>
+            <span class="tag">4 years</span> <span class="tag">Computing</span>
+          </div></article></div>
+          <div class="col-md-6 col-lg-4 program" data-category="computing"><article class="card h-100"><div class="card-body p-4">
+            <span class="icon-badge" aria-hidden="true"><i class="bi bi-bar-chart-line"></i></span>
+            <h3>BEng Data &amp; AI Engineering</h3>
+            <p>Build data pipelines and machine-learning solutions with a strong foundation in statistics and ethics.</p>
+            <span class="tag">4 years</span> <span class="tag">Computing</span>
+          </div></article></div>
+          <div class="col-md-6 col-lg-4 program" data-category="electrical"><article class="card h-100"><div class="card-body p-4">
+            <span class="icon-badge" aria-hidden="true"><i class="bi bi-lightning-charge"></i></span>
+            <h3>BEng Electrical Engineering</h3>
+            <p>Power systems, renewable energy and control, with extensive hands-on circuit and grid labs.</p>
+            <span class="tag">4 years</span> <span class="tag">Electrical</span>
+          </div></article></div>
+          <div class="col-md-6 col-lg-4 program" data-category="electrical"><article class="card h-100"><div class="card-body p-4">
+            <span class="icon-badge" aria-hidden="true"><i class="bi bi-motherboard"></i></span>
+            <h3>BEng Electronics &amp; Robotics</h3>
+            <p>Combine sensors, microcontrollers and mechanics to design intelligent machines.</p>
+            <span class="tag">4 years</span> <span class="tag">Electrical</span>
+          </div></article></div>
+          <div class="col-md-6 col-lg-4 program" data-category="mechanical"><article class="card h-100"><div class="card-body p-4">
+            <span class="icon-badge" aria-hidden="true"><i class="bi bi-tools"></i></span>
+            <h3>BEng Mechanical Engineering</h3>
+            <p>Mechanics, thermodynamics and advanced manufacturing taught through design-build-test studios.</p>
+            <span class="tag">4 years</span> <span class="tag">Mechanical &amp; Civil</span>
+          </div></article></div>
+          <div class="col-md-6 col-lg-4 program" data-category="mechanical"><article class="card h-100"><div class="card-body p-4">
+            <span class="icon-badge" aria-hidden="true"><i class="bi bi-building"></i></span>
+            <h3>BEng Civil Engineering</h3>
+            <p>Structures, transport and water systems with a focus on resilient, sustainable infrastructure.</p>
+            <span class="tag">4 years</span> <span class="tag">Mechanical &amp; Civil</span>
+          </div></article></div>
+        </div>
+        <div class="text-center mt-5">
+          <a class="btn btn-brand btn-lg" href="admissions.html">See how to apply</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5"><h2>Engineering College</h2><p>Hands-on engineering education for the next generation of builders, makers and problem solvers.</p></div>
+        <div class="col-6 col-md-3"><h2>Explore</h2><ul class="list-unstyled"><li><a href="about.html">About &amp; Programs</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="student-life.html">Student Life</a></li></ul></div>
+        <div class="col-6 col-md-4"><h2>Get in touch</h2><ul class="list-unstyled"><li><a href="contact.html">Contact us</a></li><li><a href="registration.html">Register</a></li></ul></div>
+      </div>
+      <hr class="border-secondary">
+      <p class="small mb-0">&copy; <span data-year>2026</span> Engineering College. Demonstration website created for a course project.</p>
+    </div>
+  </footer>
+  <button id="backToTop" class="btn btn-accent" type="button" aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
